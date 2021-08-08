@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="web" />
+        <module name="emailapp" />
+        <module name="service" />
+        <module name="repository" />
+        <module name="domain" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="domain" target="11" />
+      <module name="email" target="11" />
+      <module name="email-app" target="11" />
+      <module name="emailapp" target="11" />
+      <module name="hospital-management-system" target="11" />
+      <module name="repository" target="11" />
+      <module name="service" target="11" />
+      <module name="web" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="domain" options="-parameters" />
+      <module name="email" options="-parameters" />
+      <module name="email-app" options="-parameters" />
+      <module name="emailapp" options="-parameters" />
+      <module name="hospital-management-system" options="-parameters" />
+      <module name="repository" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="web" options="-parameters" />
+    </option>
+  </component>
+</project>
