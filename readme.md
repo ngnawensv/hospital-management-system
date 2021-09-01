@@ -23,3 +23,5 @@ Les etapes:
 
 ##
 For beginning, watch this video https://www.youtube.com/watch?v=DG9B2w-N42s
+##
+Les principaux avantages de cette approche sont : la réutilisabilité et la maintenabilité.
