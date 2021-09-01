@@ -19,3 +19,9 @@ Les etapes:
 5)	Injecter dans le module service, les modules repository et email-app via le pom.xml. En effet, le module service a besoin des modules repository et email-app.
 6)	Injecter dans le module web, le module service via le pom.xml. En effet, le module web a besoin du module service.
 7)	Injecter aussi dans la couche web, la dépendance spring web et créer la classe contenant la méthode main() pour permettre l’exécution de l’application
+
+
+##
+For beginning, watch this video https://www.youtube.com/watch?v=DG9B2w-N42s
+##
+Les principaux avantages de cette approche sont : la réutilisabilité et la maintenabilité.
